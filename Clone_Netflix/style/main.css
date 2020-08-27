@@ -12,8 +12,10 @@
 body{
   background-color: var(--preta);
   font-family: 'Times New Roman', Times, serif;
-
+  color: white;
 }
+
+
 
 header .container{
  display: flex;
@@ -37,4 +39,18 @@ header nav a{
 
 header nav a:hover{
     color:#fff;
+}
+
+div .filme{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/capa-house.jpg');
+    
+    background-size: cover;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
 }
